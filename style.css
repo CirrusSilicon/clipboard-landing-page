@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* Poppins at top */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Section 1 Starts */
+
+
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: auto;
+}
+
+.top-title {
+  margin-top: 0px;
+  color: #333;
+  text-align: center;
+}
+
+.description1 {
+  font-size: 1rem;
+  color: rgb(136, 136, 136);
+  font-weight: 500;
+  text-align: center;
+  max-width: 1000px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.btn1 {
+  width: 210px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px hsl(171, 66%, 44%), -2px 2px 4px hsl(171, 66%, 44%), 2px -2px 4px hsl(171, 66%, 44%), -2px -2px 4px hsl(171, 66%, 44%);
+}
+
+.btn2 {
+  width: 210px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px hsl(233, 100%, 69%), -2px 2px 4px hsl(233, 100%, 69%), 2px -2px 4px hsl(233, 100%, 69%), -2px -2px 4px hsl(233, 100%, 69%);
+}
+
+.buttons1 {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title-2 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.bio-2 {
+  font-size: 1rem;
+  color: rgb(136, 136, 136);
+  font-weight: 500;
+  text-align: center;
+  max-width: 1000px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/* Section 2 Starts */
+
+.comp1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.computer-1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.computer-image {
+  max-width: 100%;
+  height: auto;
+  margin-left: 10%;
+}
+
+.text2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.one, .two, .three {
+  font-size: 100%;
+}
+
+.one2, .two2, .three2 {
+  color: rgb(136, 136, 136);
+}
+
+@media (max-width: 1407px) {
+  .one, .two, .three {
+    font-size: 100%;
+  }
+
+  .section-4 {
+    display: block;
+  }
+}
+
+@media (max-width: 1000px) {
+  .comp1 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .text2 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .computer-1 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .computer-image {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .description1 {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .bio-2 {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .devices {
+    width: 90%;
+    height: auto;
+  }
+
+  .section-4 {
+    display: block;
+  }
+
+  .section--4 {
+    display: block;
+  }
+}
+
+@media (max-width: 1000px) {
+  .devices {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 715px) {
+  .buttons1 {
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+}
+
+.top-title {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.computer-image {
+  width: auto;
+}
+
+.text2 {
+  font-size: 1rem;
+  gap: 20px;
+}
+
+/* Some Extra Work */
+
+.computer-1 {
+  max-width: 40%;
+  height: 400px;
+  width: 500px;
+}
+
+.text2 {
+  max-width: 40%;
+}
+
+.top-title {
+  font-size: 300%;
+}
+
+.title-2 {
+  font-size: 300%;
+  font-weight: 700;
+}
+
+/* Section 3 Starts */
+
+
+.section-3 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+
+.image-devices {
+  margin-top: 100px; 
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+#all {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.supercharge {
+  text-align: center;
+}
+
+/* Section 4 */
+
+
+.section-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: rgb(136, 136, 136);
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.section-41 , .section-42 , .section-43 {
+  display: block;
+}
+
+.noname1 , .noname2 , .noname3 {
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  .section-4 {
+    display: block;
+  }
+}
+
+/* Section 5 */
+
+.section-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+  margin-inline: 30px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1000px) {
+  .section-5 {
+    display: block;
+  }
+}
+
+.logo1 {
+  margin-bottom: 60px;
+}
+
+.logo2 {
+  margin-bottom: 60px;
+}
+
+.logo3 {
+  margin-bottom: 60px;
+}
+
+.logo4 {
+  margin-bottom: 60px;
+}
+
+.logo5 {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1133px) {
+  .image-devices { 
+    width: 90%;
+    height: auto;
+  }
+
+  .devices {
+    width: 90%;
+    height: auto;
+  }
+}
+
+
+/* Section 6 */
+
+.section-6 {
+  text-align: center;
+}
+
+/* Footer Starts */
+
+
+@media (max-width: 1000px) {
+  .footer {
+    display: block;
+  }
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  background-color: rgb(195, 195, 195);
+}
+
+.main-icon {
+  width: 60px;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.footer-3-main {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.footer-3-1 {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer-3-2 {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer-3-3 {
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: rgb(136, 136, 136);
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.btn1 {
+  margin-bottom: 20px;
+}
